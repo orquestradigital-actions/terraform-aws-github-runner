@@ -638,6 +638,11 @@
     "@octokit/types" "^6.12.2"
     btoa-lite "^1.0.0"
 
+"@octokit/openapi-types@^13.0.0":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.0.1.tgz#f655810f0dc0547b771526fea171acffbc7bd4a8"
+  integrity sha512-40U39YoFBhJhmkAg6gbJnh9U8aueJwCuiTW0mXY2pNl9/+E7dUxXiMPOrIUGT12XqLinroaXYA3FUiw3BMeNfg==
+
 "@octokit/openapi-types@^7.3.2":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-7.3.2.tgz#065ce49b338043ec7f741316ce06afd4d459d944"
@@ -700,6 +705,13 @@
   integrity sha512-UxhWCdSzloULfUyamfOg4dJxV9B+XjgrIZscI0VCbp4eNrjmorGEw+4qdwcpTsu6DIrm9tQsFQS2pK5QkqQ04A==
   dependencies:
     "@octokit/openapi-types" "^7.3.2"
+
+"@octokit/types@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-7.0.0.tgz#3ecee92edff53a93ecd75d6b9d6620574d2048ca"
+  integrity sha512-8uSDc66p6+wADn6lh6lA7I3ZTIapn7F/dfpsiDztVjEr6kkyKR3qPqa4lgEX92O/8iJoDeGcscKRXGAjCSR/zg==
+  dependencies:
+    "@octokit/openapi-types" "^13.0.0"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
